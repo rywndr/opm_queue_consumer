@@ -1,0 +1,1 @@
+### Standalone consumer app for processing opm API playlist export requests using RabbitMQ.
