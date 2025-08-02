@@ -5,7 +5,9 @@
   "main": "src/consumer.js",
   "scripts": {
     "start": "node src/consumer.js",
-    "dev": "nodemon src/consumer.js"
+    "dev": "nodemon src/consumer.js",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +20,7 @@
     "pg": "^8.8.0"
   },
   "devDependencies": {
+    "eslint": "^8.53.0",
     "nodemon": "^2.0.20"
   }
 }
